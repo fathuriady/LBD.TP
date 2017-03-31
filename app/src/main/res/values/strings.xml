@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LBD.TP</string>
+    <string name="Title">LBD</string>
+
+    <string name="ButtonPersegi">Persegi</string>
+    <string name="ButtonPersegiPanj">Persegi Panjang</string>
+    <string name="ButtonSegitiga">Segitiga</string>
+    <string name="ButtonJajarGenj">Jajar Genjang</string>
+    <string name="ButtonTrapesium">Trapesium</string>
+    <string name="ButtonLayKet">Layang-Layang/Ketupat</string>
+    <string name="ButtonLingkaran">Lingkaran</string>
+
+    <string name="RumusPersegi">L = s . s </string>
+    <string name="RumusPersegiPanj">L = p . l </string>
+    <string name="RumusSegitiga">L = ½ . a . t </string>
+    <string name="RumusJajarGenj">L = a . t </string>
+    <string name="RumusTrapesium">L = ½ . ( s1 + s2 ) . t </string>
+    <string name="RumusLayKet">L = ½ . D1 . D2 </string>
+    <string name="RumusLingkaran">L = π . r . r</string>
+    <string name="ButtonHitung">Hitung</string>
+
+</resources>

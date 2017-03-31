@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_BD"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/persegi"
+        />
+
+    <TextView
+        android:id="@+id/txt_Rumus"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="@string/RumusPersegi"
+        android:textSize="31sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/img_BD"
+        android:textColor="#000"
+        android:layout_alignStart="@+id/txt_Sisi"
+        android:layout_alignEnd="@+id/edt_Sisi" />
+
+
+        <TextView
+            android:id="@+id/txt_Sisi"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="Sisi (cm) :"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/txt_Rumus"
+            android:layout_alignStart="@+id/layout_RumusHit" />
+
+        <EditText
+            android:id="@+id/edt_Sisi"
+            android:inputType="numberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="0"
+            android:textAlignment="center"
+            android:maxLength="3"
+
+            android:layout_alignBaseline="@+id/txt_Sisi"
+            android:layout_alignBottom="@+id/txt_Sisi"
+            android:layout_alignEnd="@+id/layout_RumusHit"
+            android:layout_toEndOf="@+id/txt_Sisi" />
+
+    <LinearLayout
+        android:id="@+id/layout_RumusHit"
+        android:layout_below="@+id/txt_Sisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_RumusHit"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:text="L = "
+            android:textSize="31sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/txt_Sisi1"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:text="0"
+            android:textSize="31sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:text="."
+            android:textSize="31sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/txt_Sisi2"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:text="0"
+            android:textSize="31sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_L"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="L = "
+        android:textSize="31sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_alignBaseline="@+id/txt_Hasil"
+        android:layout_alignBottom="@+id/txt_Hasil"
+        android:layout_alignStart="@+id/layout_RumusHit" />
+
+    <TextView
+        android:id="@+id/txt_Hasil"
+        android:layout_below="@+id/layout_RumusHit"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textSize="31sp"
+        android:layout_toRightOf="@+id/txt_L"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_marginStart="3dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_Hitung"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_Hasil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/ButtonHitung"
+        />
+
+
+
+
+</RelativeLayout>

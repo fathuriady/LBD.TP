@@ -1,0 +1,95 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/btn_Persegi"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txt_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonPersegi"
+        />
+
+    <Button
+        android:id="@+id/btn_PersegiPanj"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_Persegi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonPersegiPanj"
+        />
+
+    <Button
+        android:id="@+id/btn_Segitiga"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_PersegiPanj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonSegitiga"
+        />
+
+    <Button
+        android:id="@+id/btn_JajarGenj"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_Segitiga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonJajarGenj"
+        />
+
+    <Button
+        android:id="@+id/btn_Trapesium"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_JajarGenj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonTrapesium"
+        />
+
+    <Button
+        android:id="@+id/btn_LayKet"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_Trapesium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonLayKet"
+        />
+
+    <Button
+        android:id="@+id/btn_Lingkaran"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btn_LayKet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="@string/ButtonLingkaran"
+        />
+
+</RelativeLayout>
